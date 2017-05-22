@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/story/story",        
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "年进度",
+    "navigationBarTextStyle":"black"
+  }
+}

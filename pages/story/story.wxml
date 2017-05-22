@@ -1,0 +1,10 @@
+<!--pages/story/story.wxml-->
+<view class='back-view'>
+<block wx:for="{{guoIcon}}">
+<image class="item-img" src="{{item}}" bindtap="previewImage" mode="aspectFill"></image>
+<image class="item-play" data-type="play" src="{{isPlaying?pauseIcon:playIcon}}" bindtap="play"></image>
+<!--<image class="item-play" data-type="play" src="{{loadingIcon}}" bindtap="play"></image>-->
+<text class="item-title">{{item_title[index]}}</text>
+<text class="item-detail">{{item_detail[index]}}</text>
+</block>
+</view>

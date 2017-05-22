@@ -17,5 +17,8 @@
     <view class="day">
     <text>今年已经过去的天数{{dayCount}}</text>
     </view>
+    <!--<view class="shareButton">
+      <button open-type="share"> 分享 </button>
+    </view>-->
   </view>
 </view>

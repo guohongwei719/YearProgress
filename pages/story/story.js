@@ -59,8 +59,8 @@ Page({
   onShareAppMessage: function () {
     var index = this.data.currentStoryIndex
     return {
-      title: '南滨特区',
-      path: '/pages/story/story?index='+index
+      title: '生日快乐',
+      path: '/pages/story/story'
     }
   },
 

@@ -33,6 +33,10 @@ startProgress:function() {
   var that = this
   var dateYearStart = new Date("2017-01-01")
   var dateYearNow = new Date()
+
+  var nowYear = dateYearNow.getUTCFullYear();
+  dateYearStart.setUTCFullYear(nowYear)
+
   var time = dateYearNow.valueOf() - dateYearStart.valueOf()
   var percent = time.valueOf() / (365 * 24 * 60 * 60 * 1000) * 100
   var percentStr = percent.toFixed(6)
